@@ -4,8 +4,8 @@ import FriendList from 'componenst/FriendList/FriendList';
 import TransactionHistory from 'componenst/TransactionHistory/TransactionHistory';
 import user from 'storage/user.json';
 import data from 'storage/data.json';
-import friends from 'storage/friends.json';
 import transactions from 'storage/transactions.json';
+import friends from 'storage/friends.json';
 
 export default function App() {
   return (
