@@ -1,0 +1,53 @@
+.Image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 270px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.Container {
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
+.ImageContainer {
+  background-color: honeydew;
+}
+.Name {
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.Text {
+  text-align: center;
+  color: black;
+  opacity: 50%;
+}
+.Text:not(:last-child) {
+  margin-bottom: 5px;
+}
+.List {
+  padding: 0;
+  margin: 0;
+  background-color: khaki;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.ListItem {
+  padding: 7px 0px;
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+}
+.ListItem:not(:last-child) {
+  margin-right: 30px;
+}

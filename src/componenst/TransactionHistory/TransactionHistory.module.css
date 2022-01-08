@@ -1,0 +1,15 @@
+.Table {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 4px 5px 0px 0px rgba(34, 60, 80, 0.2);
+}
+
+.TableRow {
+  padding: 4px 4px;
+}
+.Header {
+  background-color: aqua;
+}

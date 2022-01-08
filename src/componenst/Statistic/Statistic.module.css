@@ -1,0 +1,29 @@
+.Header {
+  text-align: center;
+  padding: 10px 25px;
+  font-size: 20px;
+}
+.Section {
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+.List {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.ListItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 13px;
+  color: black;
+  padding: 15px 0px;
+  flex-basis: 60px;
+}
